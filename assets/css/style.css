@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.principal {
+  text-align: center;
+  margin: 10rem auto;
+  font-size: xx-large;
+}
+
+.section-title,
+.section-input,
+.section-btn {
+  margin-bottom: 2rem;
+}
+
+.text-p {
+  font-size: 1rem;
+}
+
+.label {
+  display: block;
+  margin: 0;
+}
+
+.input {
+  width: 25rem;
+  height: 3.5rem;
+  text-align: center;
+  font-size: x-large;
+  border-radius: 2rem;
+}
+
+.btn {
+  width: 10rem;
+  height: 3.5rem;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  opacity: 0.9;
+}
+
+.btn:active {
+  opacity: 0.3;
+}
